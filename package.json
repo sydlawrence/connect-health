@@ -1,0 +1,28 @@
+{
+  "name": "connect-health",
+  "version": "0.1.0",
+  "description": "A connect middleware that adds a /health endpoint which checks that DBs are still writable",
+  "main": "connect-health",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skattyadz/connect-health"
+  },
+  "bugs": {
+    "url": "https://github.com/skattyadz/connect-health/issues"
+  },
+  "keywords": [
+    "connect",
+    "health",
+    "mongodb",
+    "redis"
+  ],
+  "author": "Adam Howard",
+  "license": "BSD",
+  "readmeFilename": "readme.md"
+}
