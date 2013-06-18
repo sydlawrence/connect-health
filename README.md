@@ -14,7 +14,7 @@ The Redis option should be a redis client, eg: `require("redis").createClient()`
 
 The Mongo option expects an object containing a mongodb client. Eg: `{client: db.sharedClient()}`. This is wrapped in an object so that we can pass a reference in and add the client later in our boilerplate's initialisation.
 
-```
+```javascript
 // requires
 var connectHealth = require('connect-health');
 
