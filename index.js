@@ -64,7 +64,7 @@ var checkRedis = function(callback) {
     if (err) return callback(err);
 
     redis.exists(testKey, function(err, exists) {
-      if (!exists && !error) {
+      if (!exists && !err) {
         err = "Test redis write failed";
       }
       
